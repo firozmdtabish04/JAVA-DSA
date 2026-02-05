@@ -24,7 +24,7 @@ public class ArmstrongNumber {
             System.out.println("Given number is not Armstrong number: " + temp);
         }
 
-        System.out.println("**********");
+        System.out.println("\n**********");
         sc.close();
     }
 }
