@@ -13,6 +13,7 @@ public class oddSum {
             }
         }
         System.out.println("Total : " + sum);
+        sc.close();
 
     }
 }
