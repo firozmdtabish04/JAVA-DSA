@@ -1,3 +1,4 @@
+package Programs;
 import java.util.Scanner;
 
 public class ArmstrongNumber {
@@ -14,8 +15,11 @@ public class ArmstrongNumber {
 
         while (n > 0) {
             r = n % 10;
+            // System.out.println(r);
             sum = sum + (r * r * r);
+            // System.out.println(sum);
             n = n / 10;
+            // System.out.println(n);
         }
 
         if (temp == sum) {

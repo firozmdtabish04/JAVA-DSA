@@ -1,19 +1,18 @@
+package Programs;
 import java.util.Scanner;
 
-public class sumOfNum {
+public class evenNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num;
-        int sum = 0;
         System.out.println("**********\n");
-        System.out.print("Enter number (length): ");
+        System.out.print("Enter a number: ");
         num = sc.nextInt();
-
-        for (int i = 1; i <= num; i++) {
-            sum = sum + i;
-            System.out.print(i + ", ");
+        if (num % 2 == 0) {
+            System.out.println(num + " is an even number.");
+        } else {
+            System.out.println(num + " is not an even number.");
         }
-        System.out.println("\nTotal Sum is: " + sum);
 
         System.out.println("\n**********");
         sc.close();
