@@ -18,6 +18,7 @@ public class prod2Num {
         System.out.println("Addition: " + add);
         System.out.println("Subtraction: " + sub);
         System.out.println("Division: " + div);
-        System.out.println("Modulus: "+mod);
+        System.out.println("Modulus: " + mod);
+        sc.close();
     }
 }
