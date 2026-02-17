@@ -1,4 +1,4 @@
-package Programs;
+package Array;
 
 public class largestSmallest {
     public static int[] calculate(int a[]) {

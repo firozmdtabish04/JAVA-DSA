@@ -1,4 +1,4 @@
-package Programs;
+package Array;
 import java.util.Scanner;
 
 public class oddSum {
