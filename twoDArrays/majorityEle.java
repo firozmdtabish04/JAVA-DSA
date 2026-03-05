@@ -1,6 +1,6 @@
 package twoDArrays;
 
-import java.util.Arrays;
+// import java.util.Arrays;
 
 public class majorityEle {
 
