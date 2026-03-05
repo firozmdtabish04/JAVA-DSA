@@ -2,8 +2,9 @@ package twoDArrays;
 
 public class EquilibriumIndex {
     public static void main(String[] args) {
-        int arr[] = { 8, 3, 2,2, 5, 2, 9, 2 ,2};
+        int arr[] = { 8, 3, 2, 2, 5, 2, 9, 2,2 };
         EquilibriumIdx(arr);
+        
 
     }
 
@@ -20,5 +21,6 @@ public class EquilibriumIndex {
             }
             leftSum += arr[i];
         }
+       
     }
 }
