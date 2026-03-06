@@ -1,4 +1,4 @@
-package twoDArrays;
+package hardArray;
 
 public class trappingWater {
     public static void main(String[] args) {

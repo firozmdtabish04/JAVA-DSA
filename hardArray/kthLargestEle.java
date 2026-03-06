@@ -1,4 +1,4 @@
-package twoDArrays;
+package hardArray;
 
 import java.util.Arrays;
 
