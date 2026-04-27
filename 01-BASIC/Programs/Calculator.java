@@ -34,6 +34,7 @@ public class Calculator {
                 System.out.println("Oops!, Sorry calculator is not advance.");
                 break;
         }
+        sc.close();
 
     }
 }
