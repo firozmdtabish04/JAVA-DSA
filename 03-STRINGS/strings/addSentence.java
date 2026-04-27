@@ -11,6 +11,7 @@ public class addSentence {
         str = sc.nextLine();
         System.out.println("You entered: " + str);
         System.out.println(str.toUpperCase());
-        
+        sc.close();
+
     }
 }

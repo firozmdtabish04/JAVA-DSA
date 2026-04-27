@@ -27,5 +27,6 @@ public class mostFrequentChar {
 
         System.out.println("Most frequent character: " + result);
         System.out.println("Frequency: " + max);
+        sc.close();
     }
 }

@@ -28,5 +28,6 @@ public class palindrome {
         } else {
             System.out.println(str + " is not a Palindrome");
         }
+        sc.close();
     }
 }
