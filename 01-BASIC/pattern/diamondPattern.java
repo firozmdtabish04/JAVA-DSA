@@ -46,7 +46,7 @@ public class diamondPattern {
                 System.out.print("# ");
             }
             System.out.println();
-        }
+        } 
         // Row boottom triangle
         for (int i = n - 1; i >= 1; i--) {
             // Spaces

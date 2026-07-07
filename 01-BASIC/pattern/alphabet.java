@@ -1,7 +1,7 @@
 
 public class alphabet {
     public static void main(String[] args) {
-        int num = 12;
+        int num = 10;
         char ch = 'A';
 
         for (int i = 1; i <= num; i++) {
