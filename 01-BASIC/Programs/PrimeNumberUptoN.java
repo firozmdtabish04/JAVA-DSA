@@ -8,6 +8,7 @@ public class PrimeNumberUptoN {
         System.out.print("Enter Number: ");
         int number = sc.nextInt();
         int num = 0, i = 0;
+
         System.out.println("Prime numbers are :");
         for (i = 1; i <= number; i++) {
             int counter = 0;

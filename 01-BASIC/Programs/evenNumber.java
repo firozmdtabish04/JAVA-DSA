@@ -1,6 +1,4 @@
-
 import java.util.Scanner;
-
 public class evenNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -10,10 +8,10 @@ public class evenNumber {
         num = sc.nextInt();
         if (num % 2 == 0) {
             System.out.println(num + " is an even number.");
-        } else {
+        } 
+        else {
             System.out.println(num + " is not an even number.");
         }
-
         System.out.println("\n**********");
         sc.close();
     }
