@@ -8,10 +8,16 @@ public class sumNatural {
         System.out.print("Enter Natural number: ");
         num = sc.nextInt();
         System.out.println("You Entered: " + num);
-        for (int i = 1; i < num; i++) {
-            sum = sum + num;
+        // for (int i = 1; i <= num; i++) {
+        //     sum = sum + i;
 
+        // }
+
+        while(num>0){
+            sum = sum +num;
+            num--;
         }
+
         System.out.print("Sum of Natural Number is: " + sum);
         sc.close();
     }

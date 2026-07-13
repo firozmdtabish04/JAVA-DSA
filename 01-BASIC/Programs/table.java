@@ -21,6 +21,6 @@ public class table {
             i++;
         }while(i<=10);
 
-        sc.close();
+        sc.close(); 
     }
 }

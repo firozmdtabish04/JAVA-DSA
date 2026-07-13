@@ -44,8 +44,7 @@ public class totalEven {
         num = sc.nextInt();
         while (i <= num) {
             if (i % 2 == 0) {
-                System.out.print(i
-                        + ",  ");
+                System.out.print(i+ ",  ");
             }
             i++;
         }
