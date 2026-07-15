@@ -1,6 +1,6 @@
 public class pairArray {
     public static void main(String[] args) {
-        int[] arr = { 2, 3, 4, };
+        int[] arr = { 1,2, 3, 4,5 };
         pairArr(arr);
     }
 
@@ -17,6 +17,7 @@ public class pairArray {
         }
         System.out.println("Total pairs: " + total);
     }
+  
 }
 
 // n(n-1)/2 = total pairs

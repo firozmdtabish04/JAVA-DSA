@@ -1,12 +1,12 @@
 public class reverse {
     public static void main(String[] args) {
-        int[] arr = { 2, 4, 6, 8, 1, 3, 5, 7, 9 };
-        System.out.println("Original Array: ");
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i]+", ");
-        }
-        System.out.println();
-        System.out.println("After reverse Array: ");
+        int[] arr = { 7,9,10,11};
+        // System.out.println("Original Array: ");
+        // for (int i = 0; i < arr.length; i++) {
+        //     System.out.print(arr[i]+", ");
+        // }
+        // System.out.println();
+        // System.out.println("After reverse Array: ");
         reverse(arr);
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] +", ");
