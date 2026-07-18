@@ -1,5 +1,4 @@
 
-
 public class smallestIndex {
     public static void main(String[] args) {
         int a[] = new int[] { 12, 44, 23, 56, 9, 23, 78, 13,0 };

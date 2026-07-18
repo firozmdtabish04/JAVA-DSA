@@ -24,7 +24,7 @@
 
 // Using String Builder..
 public class stringReversed {    public static void main(String[] args) {
-        String str = "Abhilipsa";
+        String str = "Tabish";
         StringBuilder rev = new StringBuilder(str);
         System.out.println(rev.reverse());
 
