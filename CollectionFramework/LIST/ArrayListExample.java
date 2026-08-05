@@ -145,5 +145,7 @@ public class ArrayListExample {
         // 30. Collections.binarySearch()
         Collections.sort(numbers);
         System.out.println("binarySearch(30): " + Collections.binarySearch(numbers, 30));
+
+        
     }
 }
