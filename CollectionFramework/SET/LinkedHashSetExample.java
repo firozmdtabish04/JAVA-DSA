@@ -1,20 +1,20 @@
 package CollectionFramework.SET;
 
 import java.util.Collections;
-import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashSet;
 
 /**
- * HashSetExample
+ * LinkedHashSetExample
  */
-public class HashSetExample {
+public class LinkedHashSetExample {
 
     public static void main(String[] args) {
 
         // =========================================
-        // Create HashSet
+        // Create LinkedHashSet
         // =========================================
-        HashSet<Integer> set = new HashSet<>();
+        LinkedHashSet<Integer> set = new LinkedHashSet<>();
 
         // =========================================
         // add()
@@ -23,7 +23,7 @@ public class HashSetExample {
         set.add(20);
         set.add(30);
         set.add(40);
-        set.add(20); // Duplicate (Ignored)
+        set.add(20); // Duplicate ignored
 
         System.out.println("add(): " + set);
 
@@ -47,12 +47,13 @@ public class HashSetExample {
         // remove()
         // =========================================
         set.remove(30);
+
         System.out.println("\nremove(30): " + set);
 
         // =========================================
         // addAll()
         // =========================================
-        HashSet<Integer> set2 = new HashSet<>();
+        LinkedHashSet<Integer> set2 = new LinkedHashSet<>();
 
         set2.add(50);
         set2.add(60);
@@ -77,7 +78,7 @@ public class HashSetExample {
         // =========================================
         // retainAll()
         // =========================================
-        HashSet<Integer> set3 = new HashSet<>();
+        LinkedHashSet<Integer> set3 = new LinkedHashSet<>();
 
         set3.add(10);
         set3.add(40);
@@ -89,7 +90,8 @@ public class HashSetExample {
         // =========================================
         // clone()
         // =========================================
-        HashSet<Integer> copy =(HashSet<Integer>) set.clone();
+        LinkedHashSet<Integer> copy =
+                (LinkedHashSet<Integer>) set.clone();
 
         System.out.println("\nclone(): " + copy);
 
@@ -135,8 +137,7 @@ public class HashSetExample {
         // =========================================
         // Collections Utility Methods
         // =========================================
-
-        HashSet<Integer> numbers = new HashSet<>();
+        LinkedHashSet<Integer> numbers = new LinkedHashSet<>();
 
         numbers.add(50);
         numbers.add(20);
@@ -150,7 +151,8 @@ public class HashSetExample {
 
         System.out.println("min(): " + Collections.min(numbers));
 
-        System.out.println("frequency(20): " + Collections.frequency(numbers, 20));
+        System.out.println("frequency(20): "
+                + Collections.frequency(numbers, 20));
 
         // =========================================
         // clear()
