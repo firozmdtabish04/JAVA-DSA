@@ -4,7 +4,6 @@ public class revisionPattern {
         int n =5;
         int m =3;
 
-
         // Square Print
         /*
         * * * *
@@ -147,6 +146,7 @@ public class revisionPattern {
 //         }
 //         System.out.println();
 //    }
+
 
 
 }

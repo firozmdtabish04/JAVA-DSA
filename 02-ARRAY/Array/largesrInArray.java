@@ -1,22 +1,34 @@
 
 public class largesrInArray {
     public static void main(String[] args) {
-        int a[] = new int[] { 12, 44,100, 23, 56, 9, 23, 78, 13,99 };
+        int arr[] = new int[] { 12, 44,100, 123, 56, 9, 23, 78, 13,99 };
+        int max = arr[0];
+        int index = 0;
 
         // int a[] = new int[] {};
-        if (a.length == 0) {
+        if (arr.length == 0) {
             System.out.println("Out of bound");
             return;
-        }
-        int max = a[0];
-        int index = 0;
-        for (int i = 0; i < a.length; i++) {
-            if (max <  a[i]) {
-                max = a[i];
-                index = i;
+        }    
+        largestNum(max,arr);
+    
+    }
+    
+
+    public static void largestNum(int max, int[] arr){
+        
+        int idx =0;
+        for(int i = 0; i<arr.length; i++){
+          
+            if(max<arr[i]){
+                max=arr[i];
+                idx++;
+         
             }
+           
         }
         
-        System.out.println("Maximum: " + max + " Index: " + index);
+        System.out.println(max + " "+ idx);
+        
     }
 }

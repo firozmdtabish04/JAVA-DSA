@@ -1,14 +1,13 @@
 
-
 public class largestSmallest {
     public static int[] calculate(int a[]) {
         int max = a[0];
         int min = a[0];
-        for (int i = 1; i < a.length; i++) {
-            if (a[i] > max) {
+        for (int i = 0; i < a.length; i++) {
+            if (max < a[i]) {
                 max = a[i];
             }
-            if (a[i] < min) {
+            if (min > a[i]) {
                 min = a[i];
             }
         }
