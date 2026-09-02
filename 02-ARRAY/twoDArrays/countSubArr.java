@@ -1,13 +1,4 @@
 
-// public class countSubArr {
-
-//     public static void main(String[] args) {
-//         int[] arr = { 1, 2, 3, 4 };
-//         int n = arr.length;
-//         int total = n * (n + 1) / 2;
-//         System.out.println(total);
-//     }
-// }
 
 public class countSubArr {
 
