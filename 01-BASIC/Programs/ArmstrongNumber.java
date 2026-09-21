@@ -1,38 +1,21 @@
-import java.util.Scanner;
-
+/**
+ * ArmstrongNumber Beginner
+ */
 public class ArmstrongNumber {
+
     public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter Number: ");
-        int n = sc.nextInt();
-
-        int temp = n;
-        int original = n;
-        int digits = 0;
+        int num = 370;
+        int original = num;
+        int digits = String.valueOf(num).length();
         int sum = 0;
-
-        // Count digits
-        while (temp != 0) {
-            digits++;
-            temp /= 10;
+        while (num > 0) {
+            int digit = num % 10;
+            sum += Math.pow(digit, digits);
+            num /= 10;
         }
-
-        temp = n;
-
-        // Calculate Armstrong sum
-        while (temp != 0) {
-            int r = temp % 10;
-            sum += (int) Math.pow(r, digits);
-            temp /= 10;
-        }
-
         if (sum == original)
-            System.out.println(original + " is an Armstrong Number");
+            System.out.println(original + " is a ArmstrongNumber");
         else
-            System.out.println(original + " is Not an Armstrong Number");
-
-        sc.close();
+            System.out.println(original + " is not a ArmstrongNumber");
     }
 }
