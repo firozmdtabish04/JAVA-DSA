@@ -1,5 +1,7 @@
-  
-public class quickSort {
+package Day1.prob7;
+
+public class MergeSort {
+
     static void mergeSort(int[] arr, int left, int right) {
         if (left < right) {
             int mid = left + (right - left) / 2;
