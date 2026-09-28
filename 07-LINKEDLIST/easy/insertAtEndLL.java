@@ -13,12 +13,10 @@ public class insertAtEndLL {
         Node newNode = new Node(data);
         if (head == null)
             return newNode;
-
         Node temp = head;
         while (temp.next != null) {
             temp = temp.next;
         }
-        
         temp.next = newNode;
         return head;
     }
@@ -38,6 +36,8 @@ public class insertAtEndLL {
         head = insertAtEnd(head, 20);
         head = insertAtEnd(head, 30);
         head = insertAtEnd(head, 40);
+        printList(head);
+        insertAtEnd(head, 5);
         printList(head);
     }
 }

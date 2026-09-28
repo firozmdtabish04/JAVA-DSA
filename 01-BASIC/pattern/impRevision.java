@@ -59,7 +59,7 @@ public class impRevision {
         }
     }
 
-    // patter 5
+    // pattern 5
     public static void p5(int n, int count) {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < i; j++) {
@@ -70,7 +70,7 @@ public class impRevision {
         }
     }
 
-    // patter 6
+    // pattern 6
     public static void p6(int n) {
         for (int i = 0; i < n; i++) {
             int num = 1;
@@ -83,5 +83,6 @@ public class impRevision {
             System.out.println();
         }
     }
+
 
 }
